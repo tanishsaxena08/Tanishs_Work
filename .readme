@@ -1,0 +1,8 @@
+Installing VSCode 2019
+Install python and related developmennt tools in VSCode
+Install GIT
+Creating github repository
+    1. git config --global user.email "tanishs08@gmail.com"
+    2. git config --global user.name "tanishsaxena08"
+    3. ssh-keygen -t rsa -b 4096 -C "tanishs08@gmail.com"
+
