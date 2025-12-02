@@ -7,3 +7,27 @@ Creating github repository
     3. ssh-keygen -t rsa -b 4096 -C "tanishs08@gmail.com"
     4. for adding key, rsa.pub to Github keys.
     5. publish the changes/push.
+
+
+Step1 --> 
+Setup API keys for Grok and Tavily
+create a new api key non grok cloud
+
+always work in the virtual environment using pip
+pip3 install pipenv --> install pipenv
+pipenv install --> install dependencies
+pipenv shell --> entering to virtual env
+
+OR
+
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install langchain_openai
+
+source venv/bin/activate
+pip install requests
+pip freeze --local > requirements.txt
+
+
+To install brew in MAC
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
